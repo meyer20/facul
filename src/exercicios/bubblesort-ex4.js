@@ -1,4 +1,7 @@
-var list = [600, 596, 588, 574, 547, 520, 521, 510, 466, 465, 455, 422, 410, 20, 1];
+randomArray = (length, max) => [...new Array(length)]
+    .map(() => Math.round(Math.random() * max));
+
+var list = randomArray(1000, 10000);
 
 function bubbleSort(lista) {
     var loopTime = 1;
