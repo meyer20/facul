@@ -19,7 +19,7 @@ public class quickSort {
         }
     }
 
-    public static int separa(int[] vetor, int inicio, int fim) {
+    public static int separa(int[] vetor, int inicio, int fim) { 
         int pivo = vetor[(inicio + fim) / 2];
         int i = inicio - 1;
         int j = fim + 1;
